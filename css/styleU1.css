@@ -1,0 +1,377 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../Imagenes/Arquitectura-Computadoras.png.webp');
+    background-clip: border-box;
+    backdrop-filter: blur(3px);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+a {
+    text-decoration: none;
+    font-family: "Concert One", sans-serif;
+    
+}
+
+p {
+    color: #fff;
+    line-height: 1.5;
+    font-family: "Oxygen", sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    
+}
+
+li {
+    color: #fff;
+    margin-top: 5px;
+    font-family: "Oxygen", sans-serif;
+    font-size: 16px;
+    list-style: none;
+    text-align: justify;
+}
+
+h2 {
+    color: #fff;
+    margin-bottom: 5px;
+    font-size: 28px;
+    font-family: "Concert One", sans-serif;
+    font-weight: 300;
+    background-color: rgba(36, 33, 172, 0.845);
+    padding: 15px;
+    width: 700px;
+    border-radius: 5px;
+}
+
+h3 {
+    font-size: 20px;
+    color: #fff;
+    line-height: 1.2;
+    font-family: "Concert One", sans-serif;
+    font-weight: 200;
+}
+
+.titleGeneral {
+    width: 50%;
+    background-color: rgba(29, 56, 144, 0.923);
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    left: 30px;
+
+}
+
+.titleGeneral h1 {
+    color: white;
+    font-size: 32px;
+    padding: 20px;
+    font-family: "Oswald", sans-serif;
+    left: 60px;
+    top: 20px;
+    position: relative;
+}
+
+.titleGeneral2 {
+    width: 90%;
+    background-color: rgba(29, 56, 144, 0.923);
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    left: 30px;
+
+}
+
+.titleGeneral2 h1 {
+    color: white;
+    font-size: 32px;
+    padding: 20px;
+    font-family: "Oswald", sans-serif;
+    left: 60px;
+    top: 20px;
+    position: relative;
+}
+
+.contenedorMain {
+    width: 70%;
+    position: relative;
+
+    top: 150px;
+    left: 390px;
+    display: block;
+    padding: 15px;
+}
+
+.contenedorMain main {
+    width: 100%;
+    position: relative;
+
+}
+
+article {
+    background-color: rgba(34, 84, 172, 0.929);
+    padding: 15px;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 4px;
+}
+
+img {
+    border-radius: 4px;
+}
+
+#cpu {
+    width: 370px;
+    height: 250px;
+    float: right;
+    margin: 15px;
+}
+
+#risc {
+    width: 250px;
+    height: 180px;
+    float: right;
+    margin: 0 15px;
+}
+
+#cisc {
+    float: left;
+    width: 230px;
+    height: 180px;
+    margin: 5px 15px;
+}
+
+#Alu {
+    float: right;
+    width: 300px;
+    height: 220px;
+    margin: 5px 15px;
+}
+
+
+
+.Temario {
+    position: absolute;
+    top: 360px;
+    display: block;
+
+}
+
+.Temario a {
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    line-height: 3.2;
+    padding: 10px;
+    width: 80%;
+    transform: scale(0.9);
+    transition: transform 0.8s ease-in-out;
+
+}
+
+.Temario a:hover {
+    background-color: #0f0c29;
+    transform: scale(1.0);
+    transition: transform 0.8s ease-in-out;
+    font-style: bold;
+    font-size: large;
+    color:white;
+}
+
+.titleTema {
+    position: absolute;
+    top: 300px;
+    left: 30px;
+    background-color: rgba(29, 56, 144, 0.923);
+    width: 20%;
+}
+
+.titleTema h4 {
+    font-size: 32px;
+    font-family: "Oswald", sans-serif;
+    padding: 5px 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.btn-home {
+    position: absolute;
+    top: 15px;
+    left: 600px;
+    display: block;
+    background-color: #2f1dd5;
+    text-decoration: none;
+    padding: 10px;
+    border: 0;
+    border-radius: 2px;
+    transform: scale(0.9);
+    transition: transform 0.8s ease-in-out;
+}
+
+.btn-home2 {
+    position: absolute;
+    top: 70px;
+    left: 600px;
+    display: block;
+    background-color: #2f1dd5;
+    text-decoration: none;
+    padding: 10px;
+    border: 0;
+    border-radius: 2px;
+    transform: scale(0.9);
+    transition: transform 0.8s ease-in-out;
+}
+
+.btn-home a,
+.btn-home2 a {
+    color: #fff;
+    font-family: "Concert One", sans-serif;
+    font-size: 15px;
+}
+
+.btn-home:hover,
+.btn-home2:hover {
+    transform: scale(1.1);
+    transition: transform 0.8s ease-in-out;background-color: #0f084f;
+}
+
+
+
+
+.btn-homeU {
+    position: absolute;
+    top: 10px;
+    left: 1000px;
+    display: block;
+    background-color: #2f1dd5;
+    text-decoration: none;
+    padding: 10px;
+    border: 0;
+    border-radius: 2px;
+    transform: scale(0.9);
+    transition: transform 0.8s ease-in-out;
+}
+
+.btn-homeU2 {
+    position: absolute;
+    top: 60px;
+    left: 1000px;
+    display: block;
+    background-color: #2f1dd5;
+    text-decoration: none;
+    padding: 10px;
+    border: 0;
+    border-radius: 2px;
+    transform: scale(0.9);
+    transition: transform 0.8s ease-in-out;
+}
+
+.btn-homeU a,
+.btn-homeU2 a {
+    color: #fff;
+    font-family: "Concert One", sans-serif;
+    font-size: 15px;
+}
+
+.btn-homeU:hover,
+.btn-homeU2:hover {
+    transform: scale(1.1);
+    transition: transform 0.8s ease-in-out;
+    background-color: #0f084f;
+}
+
+
+.btn-homeU4 {
+    position: absolute;
+    top: 125px;
+    left: 580px;
+    display: block;
+    background-color: #2f1dd5;
+    text-decoration: none;
+    padding: 10px;
+    border: 0;
+    border-radius: 2px;
+    transform: scale(0.9);
+    transition: transform 0.8s ease-in-out;
+}
+
+.btn-home4 {
+    position: absolute;
+    top: 125px;
+    left: 500px;
+    display: block;
+    background-color: #2f1dd5;
+    text-decoration: none;
+    padding: 10px;
+    border: 0;
+    border-radius: 2px;
+    transform: scale(0.9);
+    transition: transform 0.8s ease-in-out;
+}
+
+.btn-homeU4 a,
+.btn-home4 a {
+    color: #fff;
+    font-family: "Concert One", sans-serif;
+    font-size: 15px;
+}
+
+.btn-homeU4:hover,
+.btn-home4:hover {
+    transform: scale(1.1);
+    transition: transform 0.8s ease-in-out;
+    background-color: #0f084f;
+}
+
+
+
+.btn-homeU3 {
+    position: absolute;
+    top: 10px;
+    left: 1100px;
+    display: block;
+    background-color: #2f1dd5;
+    text-decoration: none;
+    padding: 10px;
+    border: 0;
+    border-radius: 2px;
+    transform: scale(0.9);
+    transition: transform 0.8s ease-in-out;
+}
+
+.btn-home3 {
+    position: absolute;
+    top: 60px;
+    left: 1100px;
+    display: block;
+    background-color: #2f1dd5;
+    text-decoration: none;
+    padding: 10px;
+    border: 0;
+    border-radius: 2px;
+    transform: scale(0.9);
+    transition: transform 0.8s ease-in-out;
+}
+
+.btn-homeU3 a,
+.btn-home3 a {
+    color: #fff;
+    font-family: "Concert One", sans-serif;
+    font-size: 15px;
+    
+}
+
+.btn-homeU3:hover,
+.btn-home3:hover {
+    transform: scale(1.1);
+    background-color: #0f084f;
+    transition: transform 0.8s ease-in-out;
+    
+}
